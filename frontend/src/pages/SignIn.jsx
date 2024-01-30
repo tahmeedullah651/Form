@@ -44,7 +44,7 @@ const SignIn = () => {
   return (
     <div className="min-h-screen w-full pt-14 bg-gray-100">
       <div className="max-w-3xl flex flex-col mx-auto bg-white">
-        <Text text="  WelCome to Login" />
+        <Text text="Login to WedBook" />
 
         <div className="w-[40rem] mx-auto flex flex-col pt-6">
           <form className="flex flex-col gap-8 w-full" onSubmit={handleSubmit}>
