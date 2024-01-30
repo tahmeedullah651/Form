@@ -13,7 +13,7 @@ const signup = async (req, res) => {
   try {
     const { error } = singupSchema.validate(req.body);
     if (error) {
-      return ErrorMessaage(res, 422, error.message);
+      return ErrorMessage(res, 422, error.message);
     }
     const isEmailExist = await User.exists({ email });
     if (isEmailExist) {
